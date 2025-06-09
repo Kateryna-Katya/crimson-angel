@@ -27,6 +27,11 @@ h3{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.title-container{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 @media only screen and (min-width: 1439px) {
   body{
     font-size: 18px;

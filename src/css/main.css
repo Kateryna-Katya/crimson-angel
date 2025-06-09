@@ -1,0 +1,123 @@
+/* Hero */
+.hero-section{
+    background-image: url("/img/hero/mob.png");
+    background-repeat: no-repeat;
+    background-position: top 130px center;
+    background-size: contain;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+.hero-main-text{
+    font-family: "Cinzel", sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 1.2;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: #f1f1f1;
+}
+.hero-big-text{
+    margin-top: 230px;
+}
+.hero-wrapper{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 400;
+        font-size: 14px;
+}
+.hero-icon-wrapper{
+    margin-top: 16px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+        font-size: 14px;
+}
+.hero-link{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+@media only screen and (min-width: 1439px) {
+ .hero-section{
+    background-image: url("/img/hero/desk.png");
+        background-repeat: no-repeat;
+        background-position: top 20px center;
+        background-size: 100% 775px;
+        height: 800px;
+ }
+ .hero-main-text{
+    font-weight: 700;
+        font-size: 64px;
+ }
+ .hero-big-text{
+margin-top: 496px;
+font-weight: 400;
+    font-size: 18px;
+    width: 1062px;
+margin-left: auto;
+margin-right: auto;
+ }
+.hero-container{
+    display: flex;
+    margin-top: 26px;
+    gap: 41px;
+    justify-content: center;
+}
+.hero-wrapper{
+    flex-direction: row;
+    margin-top: 0;
+    gap: 24px;
+}
+.hero-icon-wrapper{
+    margin-top: 0;
+    gap: 24px;
+}
+}
+/* About the Game */
+.about-section {
+    background-image: url("/img/about/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    height: 603px;
+}
+.title-container{
+    margin-bottom: 40px;
+}
+.about-subtitle{
+    margin-bottom: 22px;
+}
+.about-text{
+    font-size: 17px;
+}
+@media only screen and (min-width: 1439px) {
+    .about-section{
+        background-image: url("/img/about/desk.png"); 
+        height: 1000px;
+    }
+.title-container{
+    margin-bottom: 24px;
+}
+.about-subtitle{
+    margin-bottom: 40px;
+}
+.about-text{
+    width: 1062px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
