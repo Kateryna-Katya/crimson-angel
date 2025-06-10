@@ -121,3 +121,115 @@ margin-right: auto;
     margin-right: auto;
 }
 }
+/* Game Features */
+.features-section{
+    background-image: url("/img/features/mob.png");
+    background-repeat: no-repeat;
+    background-position: top 390px center;
+    background-size: contain;
+}
+.features-list-one{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.features-subtitle{
+    margin-bottom: 8px;
+    font-family: "Cinzel", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        color: #e1cc6d;
+}
+.features-text{
+    width: 308px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.features-list-two{
+    margin-top: 156px;
+    display: flex;
+        flex-direction: column;
+        gap: 16px;
+}
+@media only screen and (min-width: 1439px) {
+.features-section {
+background-image: url("/img/features/desk.png");
+background-repeat: no-repeat;
+background-position: top 90px center;
+background-size: contain;
+}
+.features-list-one{
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+}
+.features-item{
+    width: 340px;
+    height: 102px;
+}
+.features-subtitle {
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+.features-text{
+    width: 340px;
+}
+.features-list-two{
+    flex-direction: row;
+gap: 64px;
+column-gap: 400px;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 64px;
+}
+}
+/* Hero Customization */
+.custom-section{
+    background-image: url("/img/custom/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom  center;
+    background-size: contain;
+    height: 906px;
+}
+.custom-subtitle{
+    margin-bottom: 40px;
+}
+.custom-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.custom-figure{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.custom-img-title{
+    width: 231px;
+}
+@media only screen and (min-width: 1439px) {
+.custom-section{
+    background-image: url("/img/custom/desk.png");
+    height: 960px;
+}
+.custom-subtitle{
+    margin-bottom: 48px;
+}
+.custom-list{
+    flex-direction: row;
+}
+.custom-item{
+    padding: 0px 12px;
+        width: 240px;
+        height: 160px;
+}
+.custom-figure{
+    flex-direction: column;
+
+}
+.custom-img-title-two{
+    margin-top: 8px;
+}
+}
