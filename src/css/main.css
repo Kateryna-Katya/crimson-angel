@@ -233,3 +233,253 @@ margin-top: 64px;
     margin-top: 8px;
 }
 }
+/* Dungeons & PvE */
+.pve-section{
+    background-image: url("/img/pve/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    height: 780px;
+}
+.pve-subtitle{
+    margin-bottom: 40px;
+}
+.pve-list{
+    list-style-type: disc;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.pve-item{
+text-align: left;
+}
+@media only screen and (min-width: 1439px) {
+ .pve-section{
+background-image: url("/img/pve/desk.png");
+height: 740px;
+}
+.pve-subtitle{
+    margin-bottom: 313px;
+}
+.pve-list{
+    flex-direction: row;
+    list-style-type:none;
+    gap: 24px;
+    padding-left: 0;
+    justify-content: center;
+}
+.pve-item{
+    border-radius: 8px;
+        padding: 24px 16px;
+        width: 230px;
+        height: 148px;
+        background: #010101;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+}
+.pve-text{
+    width: 178px;
+}
+.pve-text-max{
+    width: 198px;
+}
+}
+/* PvP Arena */
+.pvp-subtitle{
+    margin-bottom: 40px;
+}
+.pvp-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.pvp-item{
+    border: 1px solid #e1cc6d;
+        border-radius: 8px;
+        padding: 16px;
+        width: 343px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+}
+.pvp-img{
+    width: 60px;
+    height: 60px;
+}
+.pvp-text{
+    font-size: 20px;
+}
+@media only screen and (min-width: 1439px) {
+  .pvp-subtitle{
+    margin-bottom: 48px;
+  }
+  .pvp-list{
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+  }
+  .pvp-item{
+    padding: 24px;
+        width: 230px;
+        height: 236px;
+        gap: 16px;
+  }
+  .pvp-img{
+    width: 100px;
+    height: 100px;
+  }
+  .pvp-text{
+    font-size: 16px;
+  }
+}
+/* Boss Battles */
+.boss-section{
+    background-image: url("/img/boss/mob.png");
+    background-repeat: no-repeat;
+    background-position: top 200px center;
+    background-size: contain;
+}
+.boss-list{
+margin-top: 212px;
+display: flex;
+flex-direction: column;
+}
+.boss-item{
+    border-radius: 4px;
+        padding: 16px;
+        width: 343px;
+        height: 80px;
+        background: #010101;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+}
+.boss-text{
+    text-align: left;
+ }
+ @media only screen and (min-width: 1439px){
+ .boss-section{
+    background-image: url("/img/boss/desk.png");
+    height: 820px;
+ }
+ .mob{
+    display: none;
+ }
+ .boss-list{
+    margin-top: 175px;
+    width: 590px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 16px;
+ }
+ .boss-text{
+  font-size: 16px;   
+ }
+ .boss-item{
+    width: 464px;
+    height: 56px;   
+ }
+ .boss-item-two{
+    width: 590px;
+ }
+ .boss-item-three{
+    width: 490px;
+ }
+ .boss-item-four{
+    width: 570px;
+ }
+ .boss-item-five{
+    width: 480px;
+ }
+ }
+ /* Game Gallery */
+ .custom-navigation{
+    display: none;
+ }
+ .gallery-swiper-slide{
+    cursor: pointer;
+ }
+ @media only screen and (min-width: 1439px) {
+  .gallery-swiper{
+    width: 1100px;
+  }
+  .gallery-container{
+    position: relative;
+  }
+  .custom-navigation{
+    display: flex;
+ gap: 1120px;
+    position: absolute;
+    z-index: 200;
+    top:48%;
+}
+.custom-arrow{
+    border-radius: 100px;
+    background-color: #f1f1f1;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.custom-next{
+    transform: rotate(180deg);
+}
+.custom-arrow:hover,
+.custom-arrow:active{
+    background-color:#e1cc6d;
+}
+ }
+/* Player Reviews */
+.reviews-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.rewiews-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid #e1cc6d;
+        border-radius: 8px;
+        padding: 16px;
+        width: 343px;
+        height: 97px;
+} 
+.reviews-wrapper{
+display: flex;
+justify-content: space-between;
+}
+.reviews-author{
+    font-size: 14px;
+    font-weight: 600;
+}
+.reviews-text{
+    font-size: 12px;
+    text-align: left;
+}
+.reviews-star-img{
+    height: 14px;
+}
+@media only screen and (min-width: 1439px) {
+.reviews-list {
+flex-direction: row;
+gap: 24px;
+}
+.rewiews-item{
+    width: 230px;
+        height: 157px;
+}
+.reviews-text {
+    font-size: 16px;
+    width: 203px;
+}
+}
