@@ -51,6 +51,7 @@
     letter-spacing: -0.02em;
     color: #010101;
     background: none;
+    background-clip: initial;
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
     text-align: left;
