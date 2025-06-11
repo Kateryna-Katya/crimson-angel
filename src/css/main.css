@@ -2,7 +2,7 @@
 .hero-section{
     background-image: url("/img/hero/mob.png");
     background-repeat: no-repeat;
-    background-position: top 130px center;
+    background-position: top 174px center;
     background-size: contain;
 }
 .visually-hidden {
@@ -24,6 +24,7 @@
         letter-spacing: -0.04em;
         text-align: center;
         color: #f1f1f1;
+        margin-top: 40px;
 }
 .hero-big-text{
     margin-top: 230px;
@@ -54,7 +55,7 @@
  .hero-section{
     background-image: url("/img/hero/desk.png");
         background-repeat: no-repeat;
-        background-position: top 20px center;
+        background-position: top 60px center;
         background-size: 100% 775px;
         height: 800px;
  }
