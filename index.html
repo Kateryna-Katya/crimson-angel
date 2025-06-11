@@ -23,20 +23,96 @@
     <script type="module" crossorigin src="/crimson-angel/index.js"></script>
     <link rel="modulepreload" crossorigin href="/crimson-angel/assets/vendor-Sm41FR0M.js">
     <link rel="stylesheet" crossorigin href="/crimson-angel/assets/vendor-BMD19QWe.css">
-    <link rel="stylesheet" crossorigin href="/crimson-angel/assets/styles-1c3D4OPt.css">
+    <link rel="stylesheet" crossorigin href="/crimson-angel/assets/styles-CWqfiiw-.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-   
+    <header class="header" id="site-header">
+  <div class="header-container container">
+    <button type="button" class="menu-button" aria-label="menu toggle">
+      <span class="icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.5" y="0.5" width="23" height="23" rx="3.5" stroke="#E1CC6D" />
+          <path d="M5.625 7.125H18.375M5.625 16.125H18.375M5.625 11.625H18.375" stroke="#F1F1F1" stroke-linecap="round" />
+        </svg>
+      </span>
+    </button>
+    <nav class="nav ">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="links" href="#Home">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Game">About<br/> the Game</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Features">Game<br /> Features</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Hero">Hero<br /> Customization</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#PvE">Dungeons<br /> & PvE</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#PvP">PvP<br /> Arena</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Boss">Boss<br /> Battles</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Gallery">Game<br /> Gallery</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Reviews">Player<br /> Reviews</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#FAQ">FAQ</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Download">Download</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Contact">Contact &<br /> Community</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>
-
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+  <ul class="menu-list">
+    <li class="menu-item"><a class="menu-list-item" href="#Home">Home</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Game">About the Game</a></li>
+    <li class="menu-item">
+      <a class="menu-list-item" href="#Features">Game Features</a>
+    </li>
+    <li class="menu-item"><a class="menu-list-item" href="#Hero">Hero Customization</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#PvE">Dungeons & PvE</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#PvP">PvP Arena</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Boss">Boss Battles</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Gallery">Game Gallery</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Reviews">Player Reviews</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#FAQ">FAQ</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Download">Download</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Contact">Contact & Community</a></li>
+  </ul>
+  <ul class="policy-list">
+    <li class="policy-item">
+      <a class="menu-list-item list-condition" href="Privacy Policy.html">Privacy Policy</a>
+    </li>
+    <li class="policy-item">
+      <a class="menu-list-item list-condition" href="Terms and Conditions.html">Terms & Conditions</a>
+    </li>
+    <li class="policy-item">
+      <a class="menu-list-item list-condition" href="Cookies Policy.html">Cookies Policy</a>
+    </li>
+  </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
       <!-- Hero -->
-<section class="hero-section">
+<section class="hero-section" id="Home">
     <div class="container">
         <h1 class="visually-hidden">Crimson Angel</h1>
         <p class="hero-main-text">Awaken Your Inner Hero in</p>
@@ -61,7 +137,7 @@
     </div>
 </section>
 <!-- About the Game -->
-<section class="about-section">
+<section class="about-section" id="Game">
     <div class="container">
         <div class="title-container">
             <img class="star" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAkCAYAAACaJFpUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHjSURBVHgBvZZLTgJBEIb/6hmjSz0BwwnUqAtXcAM5hokh8Qh6Ak104TH0BuPKjeJwAiAmbsW10GU14dGAIlUGvmQSMo/+qeqvewYw0Ho93w4HDDhY6PX2Bse6Ah1hNxwwkMICUQYjpkBimNppDmTYA9VzOLRzcLw3zkpQopcmsrNHibpSdWBsJ/d9BiX6CiNDGbz6CqcNpdUHxoYSKIMSVWBk6Ai1qboKf9g/taaqAlOHyuw59lyFAlp0cdBC36+JKBW5sYbpdsa0ZW5zgs/9V/+xfHzXXipwECBtc45OwFSFQfvhsIXonHvPD+Wj23zqSuvpNHMb6YkYVxsaaHqxLqArVeUMfx+qd9jagif69HIBK8KDpQja3txMeG4O3xr1imfUmLlKhoUdkB2oIKJctsF7sbhZ3r8eF/OXNJlIU02ACkPmlDn75dZuaBklSe7hHuKAWRYGztJ5qV/J3z+fHoEvSge3l8uOoVqHnvlxbgBpHRTodpokLWZPhTmCAlVLA53n+gcmS6dbOrzZUTxu+Uyk9uhXsBFK9K8nmoSI+qsPJI6qYm5DiTpQdqTO+GG3hgpjU7WGmgmmDm1VY/vUBwofvm7WFShbfkH6JWwPtNj5r0B5fTXThEw9tVWYpkUPNr4BeYKyffhFdYsAAAAASUVORK5CYII=" alt="Star" width="14" height="18" loading="lazy">
@@ -74,7 +150,7 @@
     </div>
 </section>
 <!-- Game Features -->
-<section class="features-section">
+<section class="features-section" id="Features">
     <div class="container">
         <div class="title-container">
             <img class="star" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAkCAYAAACaJFpUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHjSURBVHgBvZZLTgJBEIb/6hmjSz0BwwnUqAtXcAM5hokh8Qh6Ak104TH0BuPKjeJwAiAmbsW10GU14dGAIlUGvmQSMo/+qeqvewYw0Ho93w4HDDhY6PX2Bse6Ah1hNxwwkMICUQYjpkBimNppDmTYA9VzOLRzcLw3zkpQopcmsrNHibpSdWBsJ/d9BiX6CiNDGbz6CqcNpdUHxoYSKIMSVWBk6Ai1qboKf9g/taaqAlOHyuw59lyFAlp0cdBC36+JKBW5sYbpdsa0ZW5zgs/9V/+xfHzXXipwECBtc45OwFSFQfvhsIXonHvPD+Wj23zqSuvpNHMb6YkYVxsaaHqxLqArVeUMfx+qd9jagif69HIBK8KDpQja3txMeG4O3xr1imfUmLlKhoUdkB2oIKJctsF7sbhZ3r8eF/OXNJlIU02ACkPmlDn75dZuaBklSe7hHuKAWRYGztJ5qV/J3z+fHoEvSge3l8uOoVqHnvlxbgBpHRTodpokLWZPhTmCAlVLA53n+gcmS6dbOrzZUTxu+Uyk9uhXsBFK9K8nmoSI+qsPJI6qYm5DiTpQdqTO+GG3hgpjU7WGmgmmDm1VY/vUBwofvm7WFShbfkH6JWwPtNj5r0B5fTXThEw9tVWYpkUPNr4BeYKyffhFdYsAAAAASUVORK5CYII=" alt="Star" width="14" height="18" loading="lazy">
@@ -115,7 +191,7 @@
     </div>
 </section>
 <!-- Hero Customization -->
-<section class="custom-section">
+<section class="custom-section" id="Hero">
     <div class="container">
         <div class="title-container">
             <img class="star" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAkCAYAAACaJFpUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHjSURBVHgBvZZLTgJBEIb/6hmjSz0BwwnUqAtXcAM5hokh8Qh6Ak104TH0BuPKjeJwAiAmbsW10GU14dGAIlUGvmQSMo/+qeqvewYw0Ho93w4HDDhY6PX2Bse6Ah1hNxwwkMICUQYjpkBimNppDmTYA9VzOLRzcLw3zkpQopcmsrNHibpSdWBsJ/d9BiX6CiNDGbz6CqcNpdUHxoYSKIMSVWBk6Ai1qboKf9g/taaqAlOHyuw59lyFAlp0cdBC36+JKBW5sYbpdsa0ZW5zgs/9V/+xfHzXXipwECBtc45OwFSFQfvhsIXonHvPD+Wj23zqSuvpNHMb6YkYVxsaaHqxLqArVeUMfx+qd9jagif69HIBK8KDpQja3txMeG4O3xr1imfUmLlKhoUdkB2oIKJctsF7sbhZ3r8eF/OXNJlIU02ACkPmlDn75dZuaBklSe7hHuKAWRYGztJ5qV/J3z+fHoEvSge3l8uOoVqHnvlxbgBpHRTodpokLWZPhTmCAlVLA53n+gcmS6dbOrzZUTxu+Uyk9uhXsBFK9K8nmoSI+qsPJI6qYm5DiTpQdqTO+GG3hgpjU7WGmgmmDm1VY/vUBwofvm7WFShbfkH6JWwPtNj5r0B5fTXThEw9tVWYpkUPNr4BeYKyffhFdYsAAAAASUVORK5CYII=" alt="Star" width="14" height="18" loading="lazy">
@@ -157,7 +233,7 @@
     </div>
 </section>
 <!-- Dungeons & PvE -->
- <section class="pve-section">
+ <section class="pve-section" id="PvE">
     <div class="container">
         <div class="title-container">
             <img class="star" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAkCAYAAACaJFpUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHjSURBVHgBvZZLTgJBEIb/6hmjSz0BwwnUqAtXcAM5hokh8Qh6Ak104TH0BuPKjeJwAiAmbsW10GU14dGAIlUGvmQSMo/+qeqvewYw0Ho93w4HDDhY6PX2Bse6Ah1hNxwwkMICUQYjpkBimNppDmTYA9VzOLRzcLw3zkpQopcmsrNHibpSdWBsJ/d9BiX6CiNDGbz6CqcNpdUHxoYSKIMSVWBk6Ai1qboKf9g/taaqAlOHyuw59lyFAlp0cdBC36+JKBW5sYbpdsa0ZW5zgs/9V/+xfHzXXipwECBtc45OwFSFQfvhsIXonHvPD+Wj23zqSuvpNHMb6YkYVxsaaHqxLqArVeUMfx+qd9jagif69HIBK8KDpQja3txMeG4O3xr1imfUmLlKhoUdkB2oIKJctsF7sbhZ3r8eF/OXNJlIU02ACkPmlDn75dZuaBklSe7hHuKAWRYGztJ5qV/J3z+fHoEvSge3l8uOoVqHnvlxbgBpHRTodpokLWZPhTmCAlVLA53n+gcmS6dbOrzZUTxu+Uyk9uhXsBFK9K8nmoSI+qsPJI6qYm5DiTpQdqTO+GG3hgpjU7WGmgmmDm1VY/vUBwofvm7WFShbfkH6JWwPtNj5r0B5fTXThEw9tVWYpkUPNr4BeYKyffhFdYsAAAAASUVORK5CYII=" alt="Star" width="14" height="18" loading="lazy">
@@ -174,7 +250,7 @@
     </div>
  </section>
  <!-- PvP Arena -->
-<section class="pvp-section">
+<section class="pvp-section" id="PvP">
     <div class="container">
         <div class="title-container">
             <img class="star" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAkCAYAAACaJFpUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHjSURBVHgBvZZLTgJBEIb/6hmjSz0BwwnUqAtXcAM5hokh8Qh6Ak104TH0BuPKjeJwAiAmbsW10GU14dGAIlUGvmQSMo/+qeqvewYw0Ho93w4HDDhY6PX2Bse6Ah1hNxwwkMICUQYjpkBimNppDmTYA9VzOLRzcLw3zkpQopcmsrNHibpSdWBsJ/d9BiX6CiNDGbz6CqcNpdUHxoYSKIMSVWBk6Ai1qboKf9g/taaqAlOHyuw59lyFAlp0cdBC36+JKBW5sYbpdsa0ZW5zgs/9V/+xfHzXXipwECBtc45OwFSFQfvhsIXonHvPD+Wj23zqSuvpNHMb6YkYVxsaaHqxLqArVeUMfx+qd9jagif69HIBK8KDpQja3txMeG4O3xr1imfUmLlKhoUdkB2oIKJctsF7sbhZ3r8eF/OXNJlIU02ACkPmlDn75dZuaBklSe7hHuKAWRYGztJ5qV/J3z+fHoEvSge3l8uOoVqHnvlxbgBpHRTodpokLWZPhTmCAlVLA53n+gcmS6dbOrzZUTxu+Uyk9uhXsBFK9K8nmoSI+qsPJI6qYm5DiTpQdqTO+GG3hgpjU7WGmgmmDm1VY/vUBwofvm7WFShbfkH6JWwPtNj5r0B5fTXThEw9tVWYpkUPNr4BeYKyffhFdYsAAAAASUVORK5CYII=" alt="Star" width="14" height="18" loading="lazy">
@@ -206,7 +282,7 @@
     </div>
 </section>
 <!-- Boss Battles -->
-<section class="boss-section">
+<section class="boss-section" id="Boss">
     <div class="container">
         <div class="title-container">
             <img class="star" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAkCAYAAACaJFpUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHjSURBVHgBvZZLTgJBEIb/6hmjSz0BwwnUqAtXcAM5hokh8Qh6Ak104TH0BuPKjeJwAiAmbsW10GU14dGAIlUGvmQSMo/+qeqvewYw0Ho93w4HDDhY6PX2Bse6Ah1hNxwwkMICUQYjpkBimNppDmTYA9VzOLRzcLw3zkpQopcmsrNHibpSdWBsJ/d9BiX6CiNDGbz6CqcNpdUHxoYSKIMSVWBk6Ai1qboKf9g/taaqAlOHyuw59lyFAlp0cdBC36+JKBW5sYbpdsa0ZW5zgs/9V/+xfHzXXipwECBtc45OwFSFQfvhsIXonHvPD+Wj23zqSuvpNHMb6YkYVxsaaHqxLqArVeUMfx+qd9jagif69HIBK8KDpQja3txMeG4O3xr1imfUmLlKhoUdkB2oIKJctsF7sbhZ3r8eF/OXNJlIU02ACkPmlDn75dZuaBklSe7hHuKAWRYGztJ5qV/J3z+fHoEvSge3l8uOoVqHnvlxbgBpHRTodpokLWZPhTmCAlVLA53n+gcmS6dbOrzZUTxu+Uyk9uhXsBFK9K8nmoSI+qsPJI6qYm5DiTpQdqTO+GG3hgpjU7WGmgmmDm1VY/vUBwofvm7WFShbfkH6JWwPtNj5r0B5fTXThEw9tVWYpkUPNr4BeYKyffhFdYsAAAAASUVORK5CYII=" alt="Star" width="14" height="18" loading="lazy">
@@ -238,7 +314,7 @@
     </div>
 </section>
 <!-- Game Gallery -->
-<section class="gallery-section">
+<section class="gallery-section" id="Gallery">
     <div class="container gallery-container">
         <div class="title-container">
             <img class="star" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAkCAYAAACaJFpUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHjSURBVHgBvZZLTgJBEIb/6hmjSz0BwwnUqAtXcAM5hokh8Qh6Ak104TH0BuPKjeJwAiAmbsW10GU14dGAIlUGvmQSMo/+qeqvewYw0Ho93w4HDDhY6PX2Bse6Ah1hNxwwkMICUQYjpkBimNppDmTYA9VzOLRzcLw3zkpQopcmsrNHibpSdWBsJ/d9BiX6CiNDGbz6CqcNpdUHxoYSKIMSVWBk6Ai1qboKf9g/taaqAlOHyuw59lyFAlp0cdBC36+JKBW5sYbpdsa0ZW5zgs/9V/+xfHzXXipwECBtc45OwFSFQfvhsIXonHvPD+Wj23zqSuvpNHMb6YkYVxsaaHqxLqArVeUMfx+qd9jagif69HIBK8KDpQja3txMeG4O3xr1imfUmLlKhoUdkB2oIKJctsF7sbhZ3r8eF/OXNJlIU02ACkPmlDn75dZuaBklSe7hHuKAWRYGztJ5qV/J3z+fHoEvSge3l8uOoVqHnvlxbgBpHRTodpokLWZPhTmCAlVLA53n+gcmS6dbOrzZUTxu+Uyk9uhXsBFK9K8nmoSI+qsPJI6qYm5DiTpQdqTO+GG3hgpjU7WGmgmmDm1VY/vUBwofvm7WFShbfkH6JWwPtNj5r0B5fTXThEw9tVWYpkUPNr4BeYKyffhFdYsAAAAASUVORK5CYII=" alt="Star" width="14" height="18" loading="lazy">
@@ -323,7 +399,7 @@
     </div>
 </section>
 <!-- Player Reviews -->
-<section class="reviews-section">
+<section class="reviews-section" id="Reviews">
     <div class="container">
         <div class="title-container">
             <img class="star" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAkCAYAAACaJFpUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHjSURBVHgBvZZLTgJBEIb/6hmjSz0BwwnUqAtXcAM5hokh8Qh6Ak104TH0BuPKjeJwAiAmbsW10GU14dGAIlUGvmQSMo/+qeqvewYw0Ho93w4HDDhY6PX2Bse6Ah1hNxwwkMICUQYjpkBimNppDmTYA9VzOLRzcLw3zkpQopcmsrNHibpSdWBsJ/d9BiX6CiNDGbz6CqcNpdUHxoYSKIMSVWBk6Ai1qboKf9g/taaqAlOHyuw59lyFAlp0cdBC36+JKBW5sYbpdsa0ZW5zgs/9V/+xfHzXXipwECBtc45OwFSFQfvhsIXonHvPD+Wj23zqSuvpNHMb6YkYVxsaaHqxLqArVeUMfx+qd9jagif69HIBK8KDpQja3txMeG4O3xr1imfUmLlKhoUdkB2oIKJctsF7sbhZ3r8eF/OXNJlIU02ACkPmlDn75dZuaBklSe7hHuKAWRYGztJ5qV/J3z+fHoEvSge3l8uOoVqHnvlxbgBpHRTodpokLWZPhTmCAlVLA53n+gcmS6dbOrzZUTxu+Uyk9uhXsBFK9K8nmoSI+qsPJI6qYm5DiTpQdqTO+GG3hgpjU7WGmgmmDm1VY/vUBwofvm7WFShbfkH6JWwPtNj5r0B5fTXThEw9tVWYpkUPNr4BeYKyffhFdYsAAAAASUVORK5CYII=" alt="Star" width="14" height="18" loading="lazy">
@@ -374,7 +450,7 @@
     </div>
 </section>
 <!-- FAQ -->
-<section class="faq-section">
+<section class="faq-section" id="FAQ">
     <div class="container">
         <div class="title-container">
             <img class="star" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAkCAYAAACaJFpUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHjSURBVHgBvZZLTgJBEIb/6hmjSz0BwwnUqAtXcAM5hokh8Qh6Ak104TH0BuPKjeJwAiAmbsW10GU14dGAIlUGvmQSMo/+qeqvewYw0Ho93w4HDDhY6PX2Bse6Ah1hNxwwkMICUQYjpkBimNppDmTYA9VzOLRzcLw3zkpQopcmsrNHibpSdWBsJ/d9BiX6CiNDGbz6CqcNpdUHxoYSKIMSVWBk6Ai1qboKf9g/taaqAlOHyuw59lyFAlp0cdBC36+JKBW5sYbpdsa0ZW5zgs/9V/+xfHzXXipwECBtc45OwFSFQfvhsIXonHvPD+Wj23zqSuvpNHMb6YkYVxsaaHqxLqArVeUMfx+qd9jagif69HIBK8KDpQja3txMeG4O3xr1imfUmLlKhoUdkB2oIKJctsF7sbhZ3r8eF/OXNJlIU02ACkPmlDn75dZuaBklSe7hHuKAWRYGztJ5qV/J3z+fHoEvSge3l8uOoVqHnvlxbgBpHRTodpokLWZPhTmCAlVLA53n+gcmS6dbOrzZUTxu+Uyk9uhXsBFK9K8nmoSI+qsPJI6qYm5DiTpQdqTO+GG3hgpjU7WGmgmmDm1VY/vUBwofvm7WFShbfkH6JWwPtNj5r0B5fTXThEw9tVWYpkUPNr4BeYKyffhFdYsAAAAASUVORK5CYII=" alt="Star" width="14" height="18" loading="lazy">
@@ -576,7 +652,7 @@
     </div>
 </section>
 <!-- Download -->
-<section class="download-section">
+<section class="download-section" id="Download">
     <div class="container">
         <div class="title-container">
             <img class="star" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAkCAYAAACaJFpUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHjSURBVHgBvZZLTgJBEIb/6hmjSz0BwwnUqAtXcAM5hokh8Qh6Ak104TH0BuPKjeJwAiAmbsW10GU14dGAIlUGvmQSMo/+qeqvewYw0Ho93w4HDDhY6PX2Bse6Ah1hNxwwkMICUQYjpkBimNppDmTYA9VzOLRzcLw3zkpQopcmsrNHibpSdWBsJ/d9BiX6CiNDGbz6CqcNpdUHxoYSKIMSVWBk6Ai1qboKf9g/taaqAlOHyuw59lyFAlp0cdBC36+JKBW5sYbpdsa0ZW5zgs/9V/+xfHzXXipwECBtc45OwFSFQfvhsIXonHvPD+Wj23zqSuvpNHMb6YkYVxsaaHqxLqArVeUMfx+qd9jagif69HIBK8KDpQja3txMeG4O3xr1imfUmLlKhoUdkB2oIKJctsF7sbhZ3r8eF/OXNJlIU02ACkPmlDn75dZuaBklSe7hHuKAWRYGztJ5qV/J3z+fHoEvSge3l8uOoVqHnvlxbgBpHRTodpokLWZPhTmCAlVLA53n+gcmS6dbOrzZUTxu+Uyk9uhXsBFK9K8nmoSI+qsPJI6qYm5DiTpQdqTO+GG3hgpjU7WGmgmmDm1VY/vUBwofvm7WFShbfkH6JWwPtNj5r0B5fTXThEw9tVWYpkUPNr4BeYKyffhFdYsAAAAASUVORK5CYII=" alt="Star" width="14" height="18" loading="lazy">
@@ -591,7 +667,7 @@
     </div>
 </section>
 <!-- Contact & Community -->
-<section class="contact-section">
+<section class="contact-section" id="Contact">
     <div class="container contact-container">
         <div class="title-container contact-title-container">
             <img class="star" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAkCAYAAACaJFpUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHjSURBVHgBvZZLTgJBEIb/6hmjSz0BwwnUqAtXcAM5hokh8Qh6Ak104TH0BuPKjeJwAiAmbsW10GU14dGAIlUGvmQSMo/+qeqvewYw0Ho93w4HDDhY6PX2Bse6Ah1hNxwwkMICUQYjpkBimNppDmTYA9VzOLRzcLw3zkpQopcmsrNHibpSdWBsJ/d9BiX6CiNDGbz6CqcNpdUHxoYSKIMSVWBk6Ai1qboKf9g/taaqAlOHyuw59lyFAlp0cdBC36+JKBW5sYbpdsa0ZW5zgs/9V/+xfHzXXipwECBtc45OwFSFQfvhsIXonHvPD+Wj23zqSuvpNHMb6YkYVxsaaHqxLqArVeUMfx+qd9jagif69HIBK8KDpQja3txMeG4O3xr1imfUmLlKhoUdkB2oIKJctsF7sbhZ3r8eF/OXNJlIU02ACkPmlDn75dZuaBklSe7hHuKAWRYGztJ5qV/J3z+fHoEvSge3l8uOoVqHnvlxbgBpHRTodpokLWZPhTmCAlVLA53n+gcmS6dbOrzZUTxu+Uyk9uhXsBFK9K8nmoSI+qsPJI6qYm5DiTpQdqTO+GG3hgpjU7WGmgmmDm1VY/vUBwofvm7WFShbfkH6JWwPtNj5r0B5fTXThEw9tVWYpkUPNr4BeYKyffhFdYsAAAAASUVORK5CYII=" alt="Star" width="14" height="18" loading="lazy">
@@ -631,6 +707,13 @@
     </div>
   </div>
 </footer>
+    <div id="cookie-popup" class="cookie-popup">
+    <p class="cookie-class">We use cookies to improve your experience on our website. By browsing this website, you agree to our use of cookies.</p>
+    <div class="cookie-buttons">
+        <button id="decline-cookies" class="btn-decline">DECLINE COOKIES</button>
+        <button id="accept-cookies" class="btn-accept">ACCEPT COOKIES</button>
+    </div>
+</div>
 
   </body>
 </html>
