@@ -483,3 +483,220 @@ gap: 24px;
     width: 203px;
 }
 }
+/* FAQ */
+.faq-acc {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 343px;
+    margin: 0 auto;
+}
+
+.faq-acc-el {
+    position: relative;
+    transition: margin-bottom 0.3s ease;
+
+}
+
+.faq-acc-el-trigger {
+    padding: 8px;
+    width: 100%;
+    height: auto;
+    background: inherit;
+    border: none;
+    border-bottom: 1px solid #e1cc6d;
+    font-family: "Exo", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.5;
+        color: #f1f1f1;
+        background: none;
+            -webkit-background-clip: initial;
+            -webkit-text-fill-color: initial;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-acc-arr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: inherit;
+    min-width: 48px;
+}
+
+.faq-img {
+    transition: transform 0.3s ease;
+}
+
+.faq-acc-el.open .faq-acc-arr {
+    transform: rotate(180deg);
+}
+
+.faq-acc-arr.is-hidden {
+    display: none;
+}
+
+.faq-acc-el-descr-frame {
+    width: 343px;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    padding: 8px 24px;
+    transition: max-height 1s ease, opacity 0.5s ease, padding 0.5s ease;
+}
+
+.faq-acc-el.js-enabled .faq-acc-el-descr-frame {
+    visibility: hidden;
+}
+
+
+.faq-acc-el.open .faq-acc-el-descr-frame {
+    opacity: 1;
+    background-color: inherit;
+
+}
+
+.faq-acc-el.open .faq-acc-el-descr-frame {
+    visibility: visible;
+    padding: 8px 24px;
+    opacity: 1;
+    background-color: inherit;
+    font-size: 12px;
+    text-align: left;
+}
+.faq-list{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.faq-link{
+    text-decoration: underline;
+        text-decoration-skip-ink: none;
+        cursor: pointer;
+}
+.faq-acc-content {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    padding: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    visibility: hidden;
+}
+
+.faq-acc-el.open .faq-acc-content {
+    max-height: 1000px;
+    opacity: 1;
+    visibility: visible;
+    padding: 8px 0;
+}
+@media only screen and (min-width: 1439px) {
+ .faq-acc{
+    width: 1062px;
+ }
+ .faq-acc-el-trigger {
+    font-size: 24px;
+ }
+ .faq-acc-el-descr-frame {
+    width: 1062px;
+ }
+ .faq-acc-el.open .faq-acc-el-descr-frame {
+    font-size: 14px;
+ }
+}
+/* Download */
+.download-section{
+    background-image: url("/img/download/mob.png");
+    background-repeat: no-repeat;
+    background-position: top 270px center;
+    background-size: contain;
+}
+.download-subtitle{
+    margin-bottom: 24px;
+}
+.download-text{
+    font-size: 18px;
+    margin-bottom: 280px;
+}
+.download-link{
+cursor: pointer;
+box-shadow: 0 4px 4px 0 rgba(45, 45, 45, 0.5);
+    background: #010101;
+    border: 1px solid #e1cc6d;
+    padding-top: 4px;
+    padding-bottom: 8px;
+        border-radius: 16px;
+        width: 280px;
+        height: 72px;
+        display: flex;
+        gap: 14px;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+.visit-text{
+    text-align: left;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: underline;
+        text-decoration-skip-ink: none;
+        line-height: 1.2;
+}
+.visit-span{
+    font-size: 16px;
+}
+@media only screen and (min-width: 1439px) {
+  .download-section{
+    background-image: url("/img/download/desk.png");
+    background-size: cover;
+    background-position: top center;
+    height: 640px;
+  }
+.download-subtitle{
+    margin-bottom: 8px;
+}
+.download-text{
+    font-size: 20px;
+    margin-bottom: 250px;
+}
+.download-link{
+    margin-right: 280px;
+    margin-left: auto;
+}
+}
+/* Contact & Community */
+.contact-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 266px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 24px;
+    column-gap: 48px;
+}
+.contact-link{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-size: 18px;
+    color: #e1cc6d;
+    cursor: pointer;
+}
+@media only screen and (min-width: 1439px) {
+ .contact-container{
+    display: flex;
+    align-items: center;
+ }
+ .contact-title-container{
+    margin-bottom: 0;
+ }
+ .contact-wrapper{
+    width: 600px;
+    flex-wrap: nowrap;
+ }
+}
